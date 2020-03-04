@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Happy Birthday</title>
+	<style type="text/css">
+		.full{
+			border: 2px solid grey;
+			background-color: #002633;
+			border-radius: 20px;
+            margin-top: 20px;
+            padding-bottom: 40px;
+     }
+		.ballon{
+            animation-name: ballon;
+            animation-iteration-count: infinite;
+            animation-duration: 4s;
+            margin-top: 0px;
+            display: inline-block;
+            margin-left: 5%;
+            margin-top: -80px;
+		}
+		.ballon2{
+            margin-top: 0px;
+            display: inline-block;
+            margin-left: 5%;
+            margin-top: -80px;
+		}
+		.ball{
+			width: 200%;
+			height: 150px;
+			background-color: #331a00;
+			border-radius: 80%;
+		}
+		.ball2{
+			height: 150px;
+			margin-top: 110px;
+			margin-bottom: 0px;
+			animation-name: ball2;
+            animation-iteration-count: infinite;
+            animation-duration: 4s;
+		}
+		@keyframes ball2{
+            25%{
+            	color: red;
+            }
+            50%{
+            	color: orange;
+            }
+            75%{
+            	color: brown;
+            }
+            100%{
+            	color: lightblue;
+            }
+		}
+		@keyframes ballon{
+            25%{
+            	transform: rotate(-2deg);
+            }
+            50%{
+            	transform: rotate(3deg);
+            }
+		}
+		@keyframes p{
+            25%{
+            	transform: rotate(360deg);
+            	color: skyblue;
+            }
+            50%{
+            	transform: rotate(-36deg);
+            }
+		}
+		h5{
+			text-align: center;
+			font-size: 90px;
+			font-family: times new roman;
+			padding-top: 20px;
+		}
+		h4{
+			text-align: center;
+            font-size: 20px;
+			font-family: segoe script;
+			margin-top: -70px;
+			margin-left: 118%;
+		}
+		p{
+			margin-top: -100px;
+			text-align: center;
+			font-size: 17px;
+			color: #666600;
+			animation-name: p;
+      animation-iteration-count: infinite;
+      animation-duration: 10s;
+		}
+		img{
+			margin-left: 100%;
+		}
+	</style>
+</head>
+<body>
+    <div class="full">
+    	<div class="ballon" style="color: brown;">
+    		<div class="ball">
+    		    <h5>:)</h5>
+            </div>
+    	</div>
+    	<div class="ballon">
+    		<div class="ball" style="color: red;">
+    			<h5>B</h5>
+    		</div>
+    	</div>
+    	<div class="ballon" style="color: blue;">
+    		<div class="ball">
+    			<h5>D</h5>
+    		</div>
+    	</div>
+    	<div class="ballon" style="color: violet;">
+    		<div class="ball">
+    			<h5>A</h5>
+    		</div>
+    	</div>
+    	<div class="ballon" style="color: skyblue;">
+    		<div class="ball">
+    			<h5>Y</h5>
+    		</div>
+    	</div>
+    	<div class="ballon" style="color: orange">
+    		<div class="ball">
+    			<h5>!</h5>
+    		</div>
+    	</div><br>
+    	<div class="ballon2">
+    		<div class="ball2">
+    			<img src="22.gif" width="80%">
+    			<h4>MUNNA</h4>
+    			<p>Many Many Happy Returns<br>of the Day!</p>
+    		</div>
+    	</div>
+    </div>
+</body>
+</html>
